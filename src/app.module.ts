@@ -10,10 +10,10 @@ import { Product } from './product/domain/entities/product.entity';
     ProductModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '146.190.46.219',
+      host: 'test',
       port: 3306,
-      username: 'Infozoom',
-      password: 'Info2024.',
+      username: 'test',
+      password: 'test',
       database: 'testing',
       entities: [Product],
     }),
