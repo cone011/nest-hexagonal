@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nest-hexagonal
+  annotations:
+    github.com/project-slug: cone011/nest-hexagonal
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
